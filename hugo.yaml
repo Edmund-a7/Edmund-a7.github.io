@@ -1,6 +1,6 @@
-baseURL: "https://Edmund7.github.io/" # 主站的 URL
+baseURL: "https://edmund-a7.github.io/" # 主站的 URL
 title: Edmund.log # 站点标题
-copyright: "[©2024 Edmund7.log](https://Edmund7.github.io/)" # 网站的版权声明，通常显示在页脚
+copyright: "[©2025 Edmund7.log](https://edmund-a7.github.io/)" # 网站的版权声明，通常显示在页脚
 theme: PaperMod # 主题
 languageCode: zh-cn # 语言
 
