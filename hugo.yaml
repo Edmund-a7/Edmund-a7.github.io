@@ -1,5 +1,5 @@
 baseURL: "https://edmund-a7.github.io/" # 主站的 URL
-title: Edmund.log # 站点标题
+title: Edmund.Log # 站点标题
 copyright: "[©2025 Edmund7.log](https://edmund-a7.github.io/)" # 网站的版权声明，通常显示在页脚
 theme: PaperMod # 主题
 languageCode: zh-cn # 语言
@@ -85,6 +85,49 @@ params:
       favicon32x32: "favicon.png"
       apple_touch_icon: "favicon.png"
       safari_pinned_tab: "favicon.png"
+      mainSections:
+        -posts
+  ShowReadingTime: true
+  # ShowShareButtons: true
+  ShowPostNavLinks: true
+  ShowBreadCrumbs: true
+  ShowCodeCopyButtons: false
+  ShowWordCount: true
+  ShowRssButtonInSectionTermList: true
+  UseHugoToc: true
+  disableSpecial1stPost: false
+  disableScrollToTop: false
+  comments: true
+  hidemeta: false
+  hideSummary: false
+  showtoc: false
+  tocopen: false
+
+# home-info mode
+  homeInfoParams:
+    Title: "Hi there! Edmund.Log\U0001F44B"
+    Content: Welcome to my blog
+
+  socialIcons:
+    # - name: x
+    #   url: "https://x.com/"
+    # - name: stackoverflow
+    #   url: "https://stackoverflow.com"
+    - name: github
+      url: "https://github.com/Edmund-a7"
+
+  analytics:
+    google:
+      SiteVerificationTag: "XYZabc"
+    bing:
+      SiteVerificationTag: "XYZabc"
+    yandex:
+      SiteVerificationTag: "XYZabc"
+
+  cover:
+    hidden: true # hide everywhere but not in structured data
+    hiddenInList: true # hide on list pages and home
+    hiddenInSingle: true # hide on single page
 
 markup:
   goldmark:
